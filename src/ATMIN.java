@@ -57,6 +57,11 @@ public class ATMIN extends javax.swing.JFrame {
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 160, 70, 40));
 
         jButton2.setText("HELP");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 270, -1, -1));
 
         jPassword.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -92,6 +97,14 @@ public class ATMIN extends javax.swing.JFrame {
     private void jPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jPasswordActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(null,"Cara Penggunaan Aplikasi"
+                + "\n[1] Masukkan PIN dengan benar "
+                + "\n[2] Lakukan transaksi yang anda inginkan"
+                + "\n[3] Setelah selesai, jangan lupa untuk mengambil ATM Anda\n","INFO",1);
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
