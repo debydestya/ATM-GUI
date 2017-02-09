@@ -8,8 +8,11 @@ Aplikasi ini adalah aplikasi java sederhana tentang ATM. Pada aplikasi ini, user
 
 ## Screenshot Aplikasi
 Cara Penggunaan
+<br>
 ![info](https://cloud.githubusercontent.com/assets/22131289/22769951/dc51f578-eebe-11e6-9ef6-a717491c0fd4.JPG)
+<br>
 Penggunaan Aplikasi
+<br>
 ![1](https://cloud.githubusercontent.com/assets/22131289/22769942/dc155ece-eebe-11e6-86f3-36744a2b0503.JPG)
 ![2](https://cloud.githubusercontent.com/assets/22131289/22769943/dc18280c-eebe-11e6-88d6-0dc54df196c2.JPG)
 ![3](https://cloud.githubusercontent.com/assets/22131289/22769941/dc14993a-eebe-11e6-96bc-98046644e1fc.JPG)
